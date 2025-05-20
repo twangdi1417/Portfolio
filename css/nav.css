@@ -1,0 +1,68 @@
+/* Navbar Container */
+#ftco-navbar {
+  background-color: rgba(255, 255, 255, 0); /* Fully transparent */
+  padding: 1rem 0;
+  font-family: 'Poppins', sans-serif;
+  z-index: 1000;
+  width: 100%;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  color: black;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.navbar-brand span {
+  color: #00bcd4; /* Accent color for initial */
+}
+
+/* Nav Links */
+.navbar-nav .nav-link {
+  color: black;
+  font-size: 16px;
+  margin-left: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link span {
+  display: inline-block;
+}
+
+/* Hover/Active States */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link.active {
+  color: #00bcd4;
+}
+
+/* Mobile Toggle */
+.navbar-toggler {
+  border-color: transparent;
+  background: none;
+  outline: none;
+}
+
+.navbar-toggler .oi-menu {
+  color: #fff;
+  font-size: 24px;
+}
+
+/* Collapsible Menu */
+.collapse.navbar-collapse {
+  justify-content: flex-end;
+}
+
+/* Responsive Design */
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    background-color: #1a1a1a;
+    padding: 1rem;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 10px;
+  }
+}
